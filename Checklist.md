@@ -45,6 +45,7 @@
 - [x] 10. 简化操作（v1.0.5）：隐藏 Gemini、模型按 `/api/models` 可用列表智能预填默认值
 - [x] 11. 进一步简化（v1.0.6）：Claude/Codex 各只留一个主模型输入框；默认值改为硬编码（Claude: `claude-opus-5`，Codex: `gpt-5.5`）
 - [x] 12. 默认名称统一为「深夜API」（v1.0.7）
+- [x] 13. 初始化 git 并推送 GitHub（`usernamepangdun/new-api-ccs-extension`，commit `f5de875`，main 分支已同步）
 - [ ] 9. 加载实测验证（chrome://extensions 加载 → new-api 站点实测导入）
 
 ## 后续可选优化（未排期）
