@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "new-api CCS 导入助手",
+  "version": "1.0.7",
+  "description": "在 new-api 后台一键导入渠道到 CC Switch，并自动配置用户额度查询",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["shared/deeplink.js", "content/index.js", "content/modal.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background/service-worker.js"
+  }
+}
