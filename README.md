@@ -2,6 +2,8 @@
 
 在任意 new-api 后台页面一键导入渠道到 **CC Switch**（Claude Code / Codex / Gemini CLI 的供应商切换工具），并自动配置**用户额度查询**。
 
+> 📖 完整操作步骤见 [使用指南.md](./使用指南.md)
+
 ## 功能
 
 - 访问 new-api 后台时，页面右下角出现「导入CCS」悬浮按钮（非 new-api 页面零注入）
