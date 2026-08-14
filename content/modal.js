@@ -11,7 +11,7 @@
  *   3. 组装 ccswitch://v1/import 深链（含用户额度查询脚本）
  *   4. 交给 background 用 chrome.tabs.create 打开，唤起 CC Switch
  */
-const EXT_VERSION = '1.0.7';
+const EXT_VERSION = '1.0.8';
 
 function openModal({ serverAddress, shadow }) {
   if (shadow.querySelector('.ccs-modal-mask')) return; // 已打开

@@ -94,7 +94,8 @@ function buildDeepLink({ app, name, serverAddress, apiKey, models = {}, accessTo
     if (v) params.set(k, v);
   }
   params.set('homepage', serverAddress);
-  params.set('enabled', 'true');
+  // 导入后默认不启用，由用户在 CC Switch 中手动切换
+  params.set('enabled', 'false');
   // 用量查询：用户额度
   params.set('usageScript', base64EncodeUtf8(buildUsageScript(serverAddress)));
   params.set('usageEnabled', 'true');
